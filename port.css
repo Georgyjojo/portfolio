@@ -1,0 +1,78 @@
+.about
+{
+    height: auto;
+    font-size-adjust:calc(.7);
+}
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#title_main{
+    font-size: 40px;
+     font-weight: 600; 
+}
+#title_sub{
+    font-size:20px;
+    font-weight:300;
+}
+header{
+    background-color:teal;
+    color: white;
+    text-align: center;
+    width:100%;
+    top: 0;
+}
+
+button{
+   
+    background-color:aquamarine;
+    border: 3px solid blue;
+    padding:10px;
+    border-radius: 30px;
+    margin: auto;
+    color:solid black;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+button:hover
+{
+ background-color:chartreuse;  
+}
+body
+{ background-image: url('https://th.bing.com/th/id/OIP.8lTFZ8-TIdqyXls34ZP82wHaEK?rs=1&pid=ImgDetMain');
+
+    background-size: cover; 
+     
+}
+section{
+
+    padding:auto;
+    text-align: center;
+    height: 100%;
+    width:fit-content;
+    object-fit: cover;
+}
+footer{
+
+    background-color:teal;
+    color: white;
+    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+
+   
+}
+.map{
+
+    width: 70vw;
+    
+}
+.education{
+
+    font-size-adjust:calc(.5);
+}
